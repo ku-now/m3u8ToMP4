@@ -9,7 +9,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("m3u8ToMP4")]
-[assembly: AssemblyCopyright("Copyright ©  2020 Kuwai")]
+[assembly: AssemblyCopyright("Copyright ©  2020 Kunow")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
