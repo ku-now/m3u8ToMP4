@@ -32,8 +32,7 @@ namespace m3u8ToMP4
                 clip = data.GetData(DataFormats.Text) as string;
             }
 
-            if ((clip.IndexOf(".m3u8", StringComparison.OrdinalIgnoreCase) < 0) ||
-                (clip.IndexOf("http", StringComparison.OrdinalIgnoreCase) < 0))
+            if ((clip.IndexOf(".m3u8", StringComparison.OrdinalIgnoreCase) < 0) || (clip.IndexOf(":") < 0))
             {
                 MessageBox.Show("クリップボードにコピーされたURLがm3u8ファイルのものでないか、URLではありません。\n" +
                                 "m3u8ファイルを含んだURLをコピーしてから、もう一度やり直してください。\n" +
